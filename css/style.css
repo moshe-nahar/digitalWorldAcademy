@@ -1,3 +1,22 @@
+@font-face { 
+    font-family: Comfortaa-Regular; 
+    src: url('../Comfortaa/Comfortaa-Regular.ttf');
+} 
+
+@font-face { 
+    font-family: Comfortaa-Light; 
+    src: url('../Comfortaa/Comfortaa-Light.ttf');
+} 
+
+@font-face { 
+    font-family: Comfortaa-Bold; 
+    src: url('../Comfortaa/Comfortaa-Bold.ttf');
+} 
+
+html, body {
+    font-family: Comfortaa-Regular;
+ }
+
 .navbar {
     margin-bottom: 0;
     border-radius: 0;
