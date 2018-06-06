@@ -1,0 +1,85 @@
+ul{
+    list-style-type:none;
+}
+@font-face { 
+    font-family: Comfortaa-Regular; 
+    src: url('../Comfortaa/Comfortaa-Regular.ttf');
+} 
+
+@font-face { 
+    font-family: Comfortaa-Light; 
+    src: url('../Comfortaa/Comfortaa-Light.ttf');
+} 
+
+@font-face { 
+    font-family: Comfortaa-Bold; 
+    src: url('../Comfortaa/Comfortaa-Bold.ttf');
+} 
+
+body,html{
+    overflow-x:hidden;
+    font-family: Comfortaa-Regular;
+    color:#b1809d;
+}
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: #F8F8F8;
+    padding: 1% 0;
+    font-size: 1.2em;
+    border: 0;
+    color: #ffffff;
+}
+
+.navbar-brand {
+    float: left;
+    min-height: 55px;
+    padding: 0 15px 5px;
+}
+
+.navbar-brand img {
+    max-width: 200px;
+    max-height: 100px;
+}
+
+.navbar-inverse .navbar-nav>.active>a, 
+.navbar-inverse .navbar-nav>.active>a:focus, 
+.navbar-inverse .navbar-nav>.active>a:hover {
+    color:#7e5bc3;
+    background:none
+
+}
+
+.navbar-inverse .navbar-nav li a {
+    color:#7e5bc3;
+    font-family: Comfortaa-Light; 
+}
+
+.policyContainer{
+    margin-top:30px;
+}
+div.footer ul{
+    padding-left:0;
+    margin-top:15px;
+
+}
+div.footer ul li{
+        display:inline-block;
+        font-size:0.8em;
+        padding-left:0;
+        margin-right:8px;
+        font-family: Comfortaa-Light; 
+
+}
+.disclaimerTitle{
+    font-size:1em;
+
+}
+.disclaimerContent{
+    opacity:0.5;
+    font-size:0.67em;
+    padding-left:0;
+}
+
+
+

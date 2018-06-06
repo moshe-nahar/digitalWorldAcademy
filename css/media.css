@@ -1,0 +1,230 @@
+@media (min-width: 1200px){
+    .getEbookTitle{
+        margin-left:-154px
+    }
+}
+
+div.getEbookContent h2 {
+        font-size:1.4em;
+}
+div.getEbookContent span {
+    font-size:0.99em;
+    font-family: Comfortaa-Light; 
+}
+div.getEbookContent input{background: none;
+box-shadow: none;
+border: 1px solid;
+width: 320px;
+border-radius: 5px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+div.getEbookContent button.getIt{
+    background-color:white;
+    color:#6b58e8;
+}
+div.footer ul{
+    padding-left:0;
+    margin-top:15px;
+}
+div.footer ul li{
+    display:inline-block;
+    font-size:0.8em;
+    padding-left:0;
+    margin-right:8px;
+    font-family: Comfortaa-Light; 
+}
+.disclaimerTitle{
+    font-size:1em;
+}
+.disclaimerContent{
+    opacity:0.5;
+    font-size:0.67em;
+    padding-left:0;
+}
+@media (max-width: 1200px) and (min-width:991px){
+    .header_img .siteTitle{
+        position:absolute;
+        width:100%;
+        top:3%;
+        text-decoration: underline;
+        font-size:1.4em;
+        }
+    .header_img .explanation{
+        text-align:justify;
+        font-size: 0.8em;
+
+    }
+
+    div#formContainer p.formPreview {
+        position: absolute;
+        top: 173px;
+        font-size: 0.89em;
+        left: 50%;
+        width: 274px;
+        height: 81px;
+        margin-left: -42px;
+        margin-top: -19px;
+    }
+    div#formContainer form#userForm{
+        position: absolute;
+        top: 205px;
+        left: 50%;
+        width: 300px;
+        height: 100px;
+        margin-left: -42px;
+        margin-top: -19px;
+    }
+    div#formContainer form#userForm input {
+        margin-top: 2%;
+        border: 1px solid #5023b1;
+        height: 20px;
+        font-size:0.8em;
+        display: block;
+      }
+    div.rewardsSection div.rewards .academyGif {
+        position: absolute;
+        bottom: -89px;
+        left: 43.8%;
+        transform: scale(0.5,0.8);
+    }
+
+    div.rewardsSection div.rewards .buyNow {
+        text-align: center;
+        position: absolute;
+        left: 39%;
+        bottom: -86px;
+    }
+    div#formContainer form#userForm input.texts {
+        width:90%;
+    }
+    .packeges li{
+        font-size: 0.67em;
+    }   
+}
+@media (max-width: 1000px) {
+    .header_img .siteTitle{
+        font-size: 1em;
+    }
+    .header_img .explanation{
+        text-align:justify;
+        font-size: 0.7em;
+    }
+    div#formContainer form#userForm input {
+        margin-top: 2%;
+        height: 22px;
+        font-size: 0.7em;
+        display: block;
+    }     
+    div#formContainer form#userForm input.texts {
+        width:90%;
+        border: 1px solid #5023b1;
+    }
+    div.rewardsSection div.rewards .packeges{    
+        font-size:2.5em;
+        left:50%;
+    }
+    .packageTitles{
+        position: absolute;
+        top: 7%;
+        left: 56%;
+        transform: translate(-50%, -50%);
+        font-size:4.5em;
+    }      
+}
+
+@media (min-width: 600px) and (max-width:1000px) {
+        
+    .packeges{
+        top:52%;
+    }
+}
+
+@media(max-width:991px) and (min-width:500px){
+    
+    div.rewardsSection div.rewards .academyGif{
+        position: absolute;
+        bottom: -68px;
+        left: 55.8%;
+        transform: scale(0.8,1.5);
+    }
+    div.rewardsSection div.rewards .buyNow{
+        text-align: center;
+        position: absolute;
+        left: 45%;
+        font-size: 2.4em;
+        bottom: -118px;
+    }
+    div.rewardsSection div.rewards .packeges{    
+        font-size:2.1em;
+        left:56%;
+    }
+    .packeges li{
+        margin-bottom:30px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    h1{
+        font-size:25px;
+    }
+    .header_img .siteTitle{
+        font-size: 0.9em;
+    }
+    .header_img .explanation{
+        text-align:justify;
+        font-size: 0.8em;
+    }
+    div#formContainer form#userForm{
+        position: absolute;
+        top: 205px;
+        left: 50%;
+        width: 300px;
+        height: 100px;
+        margin-left: -42px;
+        margin-top: -19px;
+    }
+    div#formContainer form#userForm input {
+        margin-top: 1.5%;
+        height: 17px;
+        font-size: 0.7em;
+        display: block;
+    }
+    div#formContainer p.formPreview {
+        position: absolute;
+        top: 187px;
+        left: 50%;
+        font-size: 0.6em;
+        width: 212px;
+        /* height: 81px; */
+        margin-left: -42px;
+        margin-top: -19px
+    }
+    div#formContainer form#userForm input.texts {
+        width:75%;
+        border: 1px solid #5023b1;
+    }
+    div.rewardsSection div.rewards .academyGif {
+        bottom: -82px;
+        left: 44.8%;
+    }
+    div.rewardsSection div.rewards .packeges{    
+        left:52%;
+        font-size:1em;
+    }
+    .packageTitles{
+        font-size:2em;
+    }
+}
+
+@media (max-width: 400px) {
+    div#formContainer form#userForm input.texts{
+        width:60%;
+        border: 1px solid #5023b1;
+    } 
+}
+
+
+
+

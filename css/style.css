@@ -1,3 +1,28 @@
+ul{
+    list-style-type:none;
+}
+@font-face { 
+    font-family: Comfortaa-Regular; 
+    src: url('../Comfortaa/Comfortaa-Regular.ttf');
+} 
+
+@font-face { 
+    font-family: Comfortaa-Light; 
+    src: url('../Comfortaa/Comfortaa-Light.ttf');
+} 
+
+@font-face { 
+    font-family: Comfortaa-Bold; 
+    src: url('../Comfortaa/Comfortaa-Bold.ttf');
+} 
+
+body,html{
+    overflow-x:hidden;
+    font-family: Comfortaa-Regular;
+    color:#5324b2;
+}
+a{color:#5324b2;}
+
 .navbar {
     margin-bottom: 0;
     border-radius: 0;
@@ -5,51 +30,150 @@
     padding: 1% 0;
     font-size: 1.2em;
     border: 0;
-    color: #ffffff;
 }
-
 .navbar-brand {
     float: left;
     min-height: 55px;
     padding: 0 15px 5px;
 }
-
 .navbar-brand img {
     max-width: 200px;
-    max-height: 100px;;
+    max-height: 100px;
 }
-
 .navbar-inverse .navbar-nav>.active>a, 
 .navbar-inverse .navbar-nav>.active>a:focus, 
 .navbar-inverse .navbar-nav>.active>a:hover {
-    color: #ffffff;
-    background-color: #F8F8F8;
+    color:#7e5bc3;
+    background:none
 }
-
 .navbar-inverse .navbar-nav li a {
-    color: #d5d5d5;
+    color:#7e5bc3;
+    font-family: Comfortaa-Light; 
+
 }
 
-.headerImg.container-fluid {
+.header_img {
     position: relative;
-    text-align: center;
-    color: white;
-    padding-left: 0;
-    padding-right: 0;
+    background:url("../img/DigitalWorld.Academy_bg1.jpg") no-repeat center;
+    background-size:cover;
+    height:200px;
 }
-
-.headerImg .centered {
+.header_img .siteTitle{
+    text-align:center;
+    text-decoration: underline;
+}
+.header_img .explanation{
+    text-align:justify;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: black;
 }
-
-@media (max-width: 600px) {
-    /*
-    .carousel-caption {
-        display: none;
-    }
-    */
+div.formRow div#video {
+    padding:30px;
+    margin-top:-10px;
+}
+div.formRow div#formContainer {
+    background: url('../img/brand1.png') no-repeat center;
+    background-size: contain;
+    height: 422px;
+    position: relative;
+    top: 30px;
+    right: 20px;
+}
+p.formPreview {
+    position: absolute;
+    top: 169px;
+    left: 50%;
+    width: 274px;
+    font-size:0.89em;
+    height: 81px;
+    margin-left: -42px;
+    margin-top: -19px
+}
+div#formContainer form#userForm {
+    position: absolute;
+    top: 210px;
+    left: 50%;
+    width: 300px;
+    height: 100px;
+    margin-left: -42px;
+    margin-top: -19px;
+}
+div#formContainer form#userForm input {
+    margin-top: 2%;
+    border: 0.8px solid #5023b1;
+    display: block;
+    font-size: 0.89em;
+}
+div#formContainer form#userForm input.texts {
+    width:100%;
+    border: 1px solid #5023b1;
+}
+div.rewardsSection {
+    margin-top:20px;
+    border-radius:18px;
+    position:relative;
+}
+div.rewardsSection div.rewards .buyNow {
+    position: absolute;
+    left: 43%;
+    font-size: 1.4em;
+    bottom: -55px;
+}
+.packageTitles{
+    position: absolute;
+    top: 5%;
+    color:#5324b2;
+    left: 56%;
+    transform: translate(-50%, -50%);
+}
+div.rewardsSection .rewards{
+    position:relative;
+    margin-left:-21px;
+    margin-bottom:135px;
+}
+div.rewardsSection h1{
+    text-align:center;
+}
+div.rewardsSection div.rewards .packeges{
+    position: absolute;
+    top: 52%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+}
+.packeges li{
+    margin-top:13px;
+    font-size:0.8em;
+}
+div.rewardsSection div.rewards .academyGif{
+    position: absolute;
+    bottom: -78px;
+    left: 45.8%;
+    transform: scale(0.5,0.8);
+}
+div.rewardsSection div.rewards .buyNow{
+    text-align: center;
+    position: absolute;
+    left: 41%;
+    bottom: -73px;
+}
+div.textRows h3{
+    text-align:center
+}
+div.textRows p {
+    border:1px solid;
+    border-radius:10px;
+    text-align:center;
+    padding:10px;
+}
+div.getEbook{
+    background : url("../img/footer.jpg") no-repeat center;
+    background-size:cover;
+    height:238px;
+    padding-top: 1.8%;
+    color:white;
+}
+div.getEbookContent{
+    text-align:center;           
 }
