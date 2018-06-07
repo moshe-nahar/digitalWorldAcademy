@@ -37,9 +37,11 @@
 
 <div class="container-fluid">
     <div class="row header_img">
-        <h2 class = "siteTitle">The Worlds First Digital Currency Academy</h2>
-        <p class = "explanation">Digital world academy id the only place for avarage people to learn about blockchain & Crypto technology. Learn how you can participate in this new revolutionary world.</p>
-
+        <img src="img/DigitalWorld.Academy_bg1.jpg" style="width:100%;">
+        <div class="centered">
+            <h3 class = "siteTitle">The World's First Digital Currency Academy.</h3>
+            <p class = "explanation">Digital world academy id the only place for avarage people to learn about blockchain & Crypto technology. Learn how you can participate in this new revolutionary world.</p>
+        </div>
     </div>
 </div>
 
@@ -66,7 +68,7 @@
     <div class="row rewardsSection">
         <h1>Our Packages</h1>
         <div class = "col-md-4 col-sm-12 col-xs-12 rewards">
-            <img class = 'rewardImages' style = "width:100%" src = "img/brand2.png">
+            <img class = 'rewardImages' style = "width:100%" src = "img/brand2.gif">
             <h2 class = "packageTitles"> BASIC </h2>
             <ul class = "packeges">
                 <li>The Crypto eBook</li>
@@ -78,11 +80,10 @@
              
             </ul>
             <h2 class = "buyNow" style = "text-align:center; font-family:Comfortaa-Bold"> <a href = "#"> Buy Now! </a> </h2>  
-            <img class = "academyGif" src =  "img/academy_btn.gif" />
         </div>
         
         <div class = "col-md-4 col-sm-12 col-xs-12 rewards">
-            <img class = 'rewardImages' style = "width:100%"  src = "img/brand3.png">
+            <img class = 'rewardImages' style = "width:100%"  src = "img/brand3.gif">
             <h2 class = "packageTitles"> INTERMIDIATE </h2>
             <ul class = "packeges">
                 <li>The Crypto eBook</li>
@@ -95,11 +96,10 @@
                 <li>BTC Worth 50$ </li>
             </ul>
             <h2 class = "buyNow" style = "text-align:center; font-family:Comfortaa-Bold"><a href = "#"> Buy Now! </a></h2>  
-            <img class = "academyGif" src =  "img/academy_btn.gif" />
         </div>
         
         <div class = "col-md-4 col-sm-12 col-xs-12 rewards">
-            <img class = "rewardImages" style = "width:100%" src = "img/brand2.png">
+            <img class = "rewardImages" style = "width:100%" src = "img/brand2.gif">
             <h2 class = "packageTitles"> VIP </h2>
             <ul class = "packeges">
                 <li>The Crypto eBook</li>
@@ -112,7 +112,6 @@
                 <li>BTC Worth 50$ </li>
             </ul>
             <h2 class = "buyNow" style = "text-align:center; font-family:Comfortaa-Bold"><a href = "#"> Buy Now! </a></h2>  
-            <img class = "academyGif" src = "img/academy_btn.gif" />
        </div>
 
     </div>
